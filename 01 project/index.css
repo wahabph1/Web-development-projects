@@ -1,0 +1,97 @@
+.div1{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.div2{
+    background-color: rgba(27, 204, 204, 0.795);
+    text-align: center;
+    color: aliceblue;
+    
+
+   
+}
+.div3{
+    background-color: rgb(23, 187, 187);
+    text-align: center;
+    color: aliceblue;
+}
+.div4{
+    text-align: center;
+    
+}
+.div5{
+    text-align: center;
+    background-color: rgb(22, 214, 214);
+    color: aliceblue;
+    
+}
+#bt{
+    background-color: white;
+    color: cyan;
+    border: 0px solid gainsboro;
+    border-radius: 45px;
+}
+.div6{
+    text-align: center;
+}
+.div8{
+    text-align: center;
+}
+.div9{
+
+    border: 2px solid cyan;
+    background-color: white;
+    font-size: larger;
+}
+.div10{
+    background-color :rgba(112, 128, 144, 0.76) ;
+}
+.div11{
+    background-color: cyan;
+}
+.bt{
+    margin-top: 80px;
+    text-align: center;
+}
+.b{
+    background-color: black;
+    color: white;
+}
+.div13{
+    background-color: black;
+    color: wheat;
+    height: 100px;
+    margin-top: 30px;
+}
+.m{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    font-size: xx-large;
+    background-color: rgb(14, 216, 216);
+border-radius: 50px;
+
+}
+.fb{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+}
+.fb:hover{
+    background-color: aqua;
+}
+.im{
+    box-shadow: 7px 4px 40px 7px rgb(77, 218, 236);
+    margin-top: 20px;
+}
+.im2{
+    box-shadow: 0px 8px 8px 0px rgb(77, 218, 236);
+    margin-top: 20px;
+    background-color :
+}
+
