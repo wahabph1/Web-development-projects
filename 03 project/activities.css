@@ -1,0 +1,44 @@
+body{
+    background-color: hwb(194 55% 5% / 0.37);
+}
+.ro1{
+    margin-top: 2rem;
+}
+#h5{
+    text-align: center;
+    background-color: orangered;
+    box-shadow: 20px 20px 40px 4px firebrick;
+    
+}
+
+li{
+    padding-left: 2rem;
+}
+.st{
+    position: sticky;
+    top: 0px;
+   
+
+}
+#h7{
+    background-color: turquoise;
+    box-shadow: 10px 10px 10px 4px orangered;
+    margin-left: 7px;
+}
+#h72{
+    background-color: orangered;
+    box-shadow: 10px 10px 10px 4px   turquoise;
+    
+}
+.di{
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.div13{
+    background-color: rgb(197, 44, 120);
+    color: wheat;
+    height: 100px;
+    margin-top: 30px;
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+.st{
+    position: sticky;
+    top: 0px;
+   
+
+}
+li{
+    padding-left: 90px;
+}
+body{
+    background-color: hwb(194 55% 5% / 0.37);
+}
+#div1{
+    background-color: orangered;
+    color: wheat;
+    box-shadow: 10px 10px 10px 4px firebrick;
+    
+}
+h1{
+    box-shadow: 20px 20px 40px 4px firebrick;
+ margin-bottom: 4rem;
+ text-align: center;
+ margin-top: 4rem;
+}
+#ro1{
+    margin-top: 4rem;
+    box-shadow: 4px 5px 5px 10px firebrick;
+}
+#b{
+    background-color: burlywood;
+    width: 8rem;
+    box-shadow: 10px 10px 10px 4px firebrick;
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 45rem;
+    
+}
+#b:hover{
+    background-color: yellow;
+}
+.bg{
+    background-color: rgba(255, 68, 0, 0.575);
+    color: wheat;
+    box-shadow: 10px 10px 10px 4px firebrick;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+#btn{
+    background-color: burlywood;
+    width: 8rem;
+    text-align: center;}
+    
+#btn:hover{
+    background-color: brown;
+}
+.div13{
+    background-color: rgb(197, 44, 120);
+    color: wheat;
+    height: 100px;
+    margin-top: 30px;
+    width: 100%;
+}

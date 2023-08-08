@@ -1,0 +1,142 @@
+
+li{
+    padding-left: 90px;
+    
+}
+.div13{
+    background-color: rgb(197, 44, 120);
+    color: wheat;
+    height: 100px;
+    margin-top: 30px;
+    width: 100%;
+}
+#div1{
+    /* background-image: url("pexels-yan-krukau-8199562.jpg"); */
+    background: linear-gradient(rgba(176, 190, 184, 0.411),rgba(0, 0, 1, 0.555)),url("uni11.jpg");
+    background-size: cover;
+    height: 600px;
+  width: 100%;
+}
+#div2{
+    margin-top: 70px;
+    color: rgb(243, 241, 115);
+    text-shadow: 4px 2px  2px rgb(128, 0, 43);
+    
+}
+.st{
+    position: sticky;
+    top: 0px;
+   
+
+}
+#h1{
+   
+    color: coral;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+#col2{
+    position: absolute;
+    top: 330px;
+    left: 210px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: coral;
+
+}
+#b{
+    background-color: rgb(255, 0, 0);
+    font-size: larger;
+    border: 2px solid;
+    border-radius: 45px;
+    width: 150px;
+    text-align: center;
+}
+#col3{
+    background-color: rgba(0, 0, 0, 0.815);
+    text-align: center;
+    color: whitesmoke;
+}
+#col4{
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+    color: whitesmoke;
+}
+h1{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+ box-shadow: 20px 20px 40px 4px firebrick;
+
+}
+#div3{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+ box-shadow: 1px 5px 10px 4px firebrick;
+ text-align: center;
+ color: brown;
+ background-color: coral;
+ font-size: xx-large;
+
+}
+.pics{
+    animation-duration: 20s;
+    animation-name: pics;
+    animation-iteration-count: infinite;
+
+}
+.an{
+    animation-duration: 10s;
+    animation-name: gulo;
+    animation-iteration-count: infinite;
+}
+@keyframes gulo {
+    0% {
+        color: rgb(0, 4, 240);
+    text-shadow: 4px 2px  2px rgb(128, 0, 43);
+    box-shadow: 5px 5px 5px 5px rgb(0, 4, 255);
+    }
+    50% {
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px  8px rgb(123, 214, 241);
+    box-shadow: 5px 5px 5px 5px rgb(255, 0, 0);
+  
+   
+    }
+    75% {
+        color: gold;
+    text-shadow: 2px 2px  2px rgb(234, 245, 81);
+    box-shadow: 5px 5px 5px 5px gold;
+    
+  
+    }
+    100% {
+        color: rgb(9, 255, 0);
+    text-shadow: 2px 2px  2px rgb(93, 202, 175);
+    box-shadow: 5px 5px 5px 5px rgb(9, 255, 0);
+   
+    }
+}
+@keyframes pics {
+ 40%{
+    background: linear-gradient(rgba(176, 190, 184, 0.411),rgba(0, 0, 1, 0.555)),url("uni9.jpg");
+    background-size: cover;
+
+ }
+ 70%{
+    background: linear-gradient(rgba(176, 190, 184, 0.411),rgba(0, 0, 1, 0.555)),url("uni12.jpg");
+    background-size: cover;
+
+ }
+ 100%{
+    background: linear-gradient(rgba(176, 190, 184, 0.411),rgba(0, 0, 1, 0.555)),url("uni11.jpg");
+    background-size: cover;
+ }
+
+}
