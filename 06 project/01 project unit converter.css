@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(193, 146, 205, 0.498);
+}
+div{
+   
+    height: 300;
+    text-align: center;
+    font-size: x-large;
+    
+}
+#feet{
+    margin-top: 0px;
+    border-radius: 40px;
+    font-size: x-large;
+}
+#inch{
+    margin-top: 0px;
+    border-radius: 40px;
+    font-size: x-large;
+
+}
+#name{
+    color: bisque;
+    font-size: xx-large;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: aw;
+    
+}
+@keyframes aw {
+    0%{
+        color:  rebeccapurple;
+       
+       
+    }
+    10% {
+        color: aquamarine;
+        
+        
+    }
+    20%{
+        color: cadetblue;
+        
+    }
+    50% {
+        color: yellow;
+       
+    }
+    74%{
+        color: cyan;
+      
+    }
+    100%{
+        color: tomato;
+    }
+}
