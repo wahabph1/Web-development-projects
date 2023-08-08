@@ -1,0 +1,41 @@
+#a{
+    width: 40px;
+    background-color: aqua;
+}
+body{
+    background-color: antiquewhite;
+}
+.an{
+    animation-name: gulo;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+}
+@keyframes gulo {
+
+    25%{
+        color: aqua;
+        background-color: aqua;
+        
+        
+    }
+    40%{
+        color: blueviolet;
+        background-color: bisque;
+       
+    }
+    60%{
+        color: rgb(0, 68, 255);
+        background-color: cornflowerblue;
+        
+    }
+    80%{
+        color: rgb(0, 255, 21);
+        background-color: rgb(0, 139, 127);
+        
+    }
+    100%{
+        color: rgb(255, 0, 0);
+        background-color: beige;
+        
+    }
+}
