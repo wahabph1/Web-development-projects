@@ -3,12 +3,13 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    /* background-image: url("cool-background\ \(3\).png"); */
+    background-image: url("cool-background\ \(3\).png");
  background-size: cover;
  background-color: #e5e5f7;
-opacity: 1;
-background-image: radial-gradient(#ff0c0c 2px, #e5e5f7 2px);
-background-size: 40px 40px;
+/* opacity: 1; */
+/* background-image: radial-gradient(#ff0c0c 2px, #e5e5f7 2px); */
+/* background-size: 40px 40px; */
+background-repeat: no-repeat;
 
 }
 
@@ -20,7 +21,10 @@ header {
     background-size: cover;
     color: #151718bc;
     padding: 10px;
-     box-shadow: 0px 1px 1px 1px gray;
+
+
+    
+   
 
 
 
@@ -35,18 +39,22 @@ font-style:;
 font-variant: normal;
 text-transform: capitalize;
 
-
+border-bottom: 5px solid #1C6EA4;
+border-radius: 40px 40px 40px 40px;
      
+border-right: 10px groove #1c6ea449;
 
+border-radius: 0px 40px 40px 40px;
 
-
-
+/* 
      
     background-color: #e5e5f7;
     opacity: 1;
     background-image: radial-gradient(#044e35a3 100px, #0808e1 100px);
-    background-size: 50px 100px;
+    background-size: 50px 100px; */
 
+
+    
 }
 img{
     
@@ -122,10 +130,22 @@ h6{
     
 
 
-    background-color: #e5e5f7;
+    /* background-color: #e5e5f7;
     opacity: 1;
     background-image: radial-gradient(#044e35a3 10px, #0808e1 100px);
-    background-size: 40px 40px;
+    background-size: 40px 40px; */
+
+    
+    background-color: #e5e5f7;
+
+    border-bottom: 5px solid #1C6EA4;
+    border-radius: 40px 40px 40px 40px;
+  
+  
+    border-left: 10px groove #1c6ea449;
+    border-radius: 40px 0px 0px 40px;
+
+    
    
     
 }
@@ -137,12 +157,31 @@ h6{
     
 
     
-    background-color: #e5e5f7;
+    /* background-color: #e5e5f7;
 opacity: 1;
 background-image:  repeating-linear-gradient(45deg, #044e35a3, transparent 25%, transparent 75%, #044e35a3, #044e35a3   ), repeating-linear-gradient(45deg,#044e35a3  25%, #e5e5f7 25%, #e5e5f7 75%,#044e35a3);
 background-position: 0 0,40px 40px;
 background-size: 900px 80px;
- 
+  */
+
+  border-bottom: 15px solid #1C6EA4;
+  border-radius: 40px 40px 40px 40px;
+
+
+
+  border-bottom: 5px solid #1C6EA4;
+  border-radius: 40px 40px 40px 40px;
+
+
+  border-left: 10px groove #1c6ea449;
+  border-radius: 40px 0px 0px 40px;
+
+  background-color: #e5e5f7;
+
+
+  
+
+
     
 }
 li > p{
@@ -159,7 +198,7 @@ li > p{
 
 /* // css for animation  */
 /* Add typewriter animation styles */
-@keyframes typing {
+/* @keyframes typing {
     0%, 100% {
         width: 0;
     }
@@ -175,10 +214,10 @@ li > p{
     50% {
         width: 0;
     }
-}
+} */
 
 /* Apply typewriter animation to text within sections */
-.typewriter {
+/* .typewriter {
     position: relative;
     overflow: hidden;
     white-space: nowrap;
@@ -188,13 +227,13 @@ li > p{
     color: #007bff;
     margin-top: 100px;
    
-    
+     */
 
-}
-
+/* } */
+/* 
 .s {
     width: 40px;
-    height: 40px;
+    height: 40px; */
 }
 
 
@@ -227,12 +266,29 @@ li > p{
     animation: typing 4s steps(28) infinite, erasing 4s steps(28) infinite;
     border-right: 0px dotted #000; /* Adjust border properties as needed */
     padding-right: 0px; /* Create space for the border */
-    color: #00ccff;
+    color: #ff00d4b2;
     margin-top: 0px;
-    font-size: 60px;
+    /* text-decoration: underline 4px  #1c6ea449; */
+    
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 10px 40px  40px  rgba(0, 0, 0, 0.5);
+   
+    border-bottom: 0px solid #1C6EA4;
+     
+  
+  
+    border-left: 12px groove #1c6ea449;
+    border-radius: 40px 0px 0px 40px;
+   
+
+    font-size: 36px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/WebKit browsers */
+    color: transparent;
+     
     
 
 }
@@ -244,12 +300,35 @@ li > p{
 .type{
     margin-top: 50px;
     margin-bottom: 45px;
-    color : #044e357c;
+    color: #ff00d4b2;;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 0px 80px  rgba(0, 0, 0, 0.5);
     
+  text-align: center;
+  border-bottom: 5px solid #1C6EA4;
+  border-radius: 40px 40px 40px 40px;
 
+
+  border-left: 10px groove #1c6ea449;
+  border-radius: 40px 0px 0px 40px;
+
+  font-size: 36px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #ff00cc, #3333ff);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari/WebKit browsers */
+  color: transparent;
+      
 }
+.b{
+    
+    border-bottom:  10px solid #1C6EA4;
+    border-radius: 40px 40px 40px 40px;
+    margin-bottom: 10px;
+    font-style:oblique;
+  
+}
+.b:hover{background-color: rgb(233, 93, 233);}
 
 
