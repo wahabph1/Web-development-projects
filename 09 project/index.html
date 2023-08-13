@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ 
+    #body{
+        border: 1px solid rgb(22, 22, 20);
+        background: linear-gradient(cyan,rgba(30, 143, 255, 0.648));
+        width: 50%;
+        height: 700px;
+        text-align: center;
+        position: relative;
+        left: 40px;
+     box-shadow: 1px 10px 10px 15px gainsboro;
+    }
+    #first{
+
+       
+        border-radius: 360px;
+        height: 40px;
+        font-size: xx-large;
+
+
+    }
+    #two{
+       
+        border-radius: 360px;
+        height: 40px;
+        font-size: xx-large;
+        
+
+    }
+    #result{
+        
+        border-radius: 360px;
+        height: 40px;
+        font-size: xx-large;
+        
+       
+
+
+
+
+    }
+    #plus{
+    
+    
+     box-shadow: 1px 4px 40px 15px gainsboro;
+       
+        height: 40px;
+           width: 80px;
+        color: rgb(255, 140, 0);
+        font-size: xx-large;
+        text-align: center;
+        background: linear-gradient(rgb(0, 217, 255),rgba(32, 225, 122, 0.514));
+     
+    }
+    #minus{
+    
+        
+           
+           height: 40px;
+           width: 80px;
+           color: rgb(255, 140, 0);
+           font-size: xx-large;
+           background: linear-gradient(rgb(0, 217, 255),rgba(32, 225, 122, 0.514));
+           text-align: center;
+           box-shadow: 1px 4px 40px 15px gainsboro;
+        
+       }
+       #multi{
+    
+        
+          
+           height: 40px;
+           width: 80px;
+           color: rgb(255, 140, 0);
+           font-size: xx-large;
+           text-align: center;
+           background: linear-gradient(rgb(0, 217, 255),rgba(32, 225, 122, 0.514));
+           box-shadow: 1px 4px 40px 15px gainsboro;
+        
+       }
+       #dev{
+    
+        
+        box-shadow: 1px 4px 40px 15px gainsboro;
+         
+           height: 40px;
+           width: 80px;
+           color: rgb(255, 140, 0);
+           font-size: xx-large;
+           text-align: center;
+           background-color: antiquewhite;
+           background: linear-gradient(rgb(0, 217, 255),rgba(32, 225, 122, 0.514));
+       }
+        
+        
+        
+     
+
+</style>
+<body style="background-color: rgb(14, 14, 13);">
+
+    <div id="body">
+        <h1>Enter value</h1>
+        <input type="text" placeholder="Enter value" value="" id="first">
+        <br>
+        <br>
+        <h1>Enter value</h1>
+        <input type="text" placeholder="Enter value"  value="" , id="two">
+        <br> <br>
+        <h1>Choose operation</h1>
+
+        <button id="plus">+</button>
+        <button id="minus">-</button>
+        <button id="dev">/</button>
+        <button id="multi">*</button>
+        <br> <br>
+
+        <h1>Result</h1>
+        <input type="" placeholder="Result"  id="result">
+        
+        <br> <br>
+       
+
+    </div>
+    
+</body>
+<script>
+
+    let plus = document.getElementById("plus");
+    let minus = document.getElementById("minus");
+    let dev = document.getElementById("dev");
+    let multi = document.getElementById("multi");
+
+    let fisrt = document.getElementById("first")
+    let two = document.getElementById("two");
+    let result = document.getElementById("result");
+
+    plus.addEventListener("click",function(){
+        console.log(fisrt.value)
+        console.log(two.value)
+        let sum = parseFloat(first.value)+parseFloat(two.value)
+        result.value=sum;
+        
+    })
+    minus.addEventListener("click",function(){
+        console.log(fisrt.value)
+        console.log(two.value)
+        let sum = parseFloat(first.value)-parseFloat(two.value)
+        result.value=sum;
+        
+    })
+    multi.addEventListener("click",function(){
+        console.log(fisrt.value)
+        console.log(two.value)
+        let sum = parseFloat(first.value)*parseFloat(two.value)
+        result.value=sum;
+        
+    })
+    dev.addEventListener("click",function(){
+        console.log(fisrt.value)
+        console.log(two.value)
+        let sum = parseFloat(first.value)/parseFloat(two.value)
+        result.value=sum;
+        
+    })
+
+</script>
+</html>
